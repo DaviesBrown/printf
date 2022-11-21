@@ -1,13 +1,17 @@
 #include "main.h"
 
-int print_cent(va_list arg)
+/**
+ * print_cent - prints character % to stdout
+ * @args: variadic parameter
+ *
+ * Return: number of characters printed
+ */
+
+int print_cent(va_list args)
 {
-    int count = 0;
-    char p = (char)va_arg(arg, int);
-    if (p)
-    {
-        count = write(1, &p, 1);
-        return (p);
-    }
-    return count;
-}
+	(void)args;
+
+	write(1, "%", 1);
+
+	return (1);
+}	
