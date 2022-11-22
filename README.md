@@ -106,8 +106,7 @@ These are all the tasks of this project, the ones that are completed link to the
 ### [16. * ]
 * All the above options work well together.
 
----
-
 ### Authors
 * **DAVID NWOSU** - [nwosudavid77@gmail.com](https://github.com/Becky04)
 * **CLAIRE DIENYE** - [clairedienye@gmail.com](https://github.com/Lordwill1)
+
